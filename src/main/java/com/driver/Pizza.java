@@ -71,7 +71,7 @@ public class Pizza {
                 this.bill = this.bill + "Paperbag Added: " + this.paperBagPrice + "\n";
             }
 
-            this.bill = this.bill + "Total Price: " + this.price;
+            this.bill = this.bill + "Total Price: " + this.price +"\n";
             this.isBillGenerated = true;
         }
 
